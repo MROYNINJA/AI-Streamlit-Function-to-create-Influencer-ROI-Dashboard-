@@ -1,0 +1,2 @@
+# Agentic-RAG-Chatbot-for-Multi-Format-Document-QA-using-Model-Context-Protocol-MCP-
+we are required to build an agent-based Retrieval-Augmented Generation (RAG) chatbot that can answer user questions using uploaded documents of various formats. Our architecture must follow an agentic structure and should incorporate Model Context Protocol (MCP) as the mechanism for communication between agents and/or agents ↔ LLMs.
