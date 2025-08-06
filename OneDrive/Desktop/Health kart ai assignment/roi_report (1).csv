@@ -1,0 +1,3 @@
+source,campaign,influencer_id,user_id,product,date,orders_x,revenue,basis,rate,orders_y,total_payout,id,name,category,gender,follower_count,platform,ROI,ROAS
+Instagram,Summer25,1,u321,Shoes,2025-07-02,3,450,post,500,3,500,1,Alex,Fitness,Male,150000,Instagram,-0.1,0.9
+YouTube,GlowUp,2,u654,Cream,2025-07-04,4,800,order,100,4,400,2,Bella,Beauty,Female,200000,YouTube,1.0,2.0

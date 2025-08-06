@@ -1,0 +1,45 @@
+
+Influencer ROI Dashboard – Step-by-Step Explanation 
+
+1. Overview:
+   - This is a dashboard to track how much revenue each influencer brings compared to what they are paid.
+   - The goal is to calculate metrics like ROI (Return on Investment) and ROAS (Return on Ad Spend).
+
+2. Setup Instructions:
+   - Install the required Python packages (Streamlit, Pandas, NumPy).
+   - Run the file using the command `streamlit run "AI dashboard.py"`.
+
+3. Data Used (Simulated):
+   - Influencers data: Contains influencer details like name, followers, category, and platform.
+   - Posts data: Captures posts made by influencers including likes, comments, and captions.
+   - Tracking data: Simulates sales or actions users took after seeing influencer posts.
+   - Payouts data: How much the influencer was paid (either per post or per sale).
+
+4. Dashboard Layout:
+   - The dashboard title appears at the top.
+   - A sidebar allows users to filter by platform (like Instagram or YouTube).
+
+5. Filtering:
+   - When a platform is selected, all related data (influencers, posts, payouts, and tracking) is filtered accordingly.
+
+6. Data Merging:
+   - The different datasets are joined into one table to bring together revenue, payouts, and influencer info.
+
+7. Metrics Calculation:
+   - ROI is calculated by comparing revenue generated versus payout.
+   - ROAS is calculated as total revenue divided by total payout.
+
+8. Dashboard Displays:
+   - Shows three key metrics: total revenue, total payout, and average ROI.
+   - Displays a table of each influencer’s performance.
+   - Highlights the top 5 influencers with the highest ROI.
+   - Flags influencers with poor ROI (less than 0.5).
+
+9. Download Option:
+   - The dashboard lets users download the report in CSV format.
+
+10. Assumptions:
+   - The data is simulated.
+   - Payouts could be fixed or based on performance.
+   - Revenue is assumed to be accurately tracked.
+
